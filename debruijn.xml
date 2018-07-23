@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+	(c)2016-2018, SARL MEZZONOMY
+-->
+<?stop always?>
+<?xml-stylesheet  type='text/xsl' href='djs/agreement.xsl'?>
+<bhb:host 
+  xmlns:bhb="bhb://the.hypertext.blockchain"
+  xmlns:on = "bhb://sourced.events"
+  bhb:link="temps" socket="canal">
+  <sandbox:map xmlns:sandbox="bhb://the.sandbox" bhb:path="/djs-v1-admin" bhb:stylesheet="sandbox/static.xsl">
+  </sandbox:map>
+  <bhb:default bhb:path="/djs-v1-default" bhb:stylesheet="hyper/defaultss.xsl">
+  </bhb:default>
+</bhb:host>
+<?bhb-document on:id='debruyin' on:clock='2018-07-21T09:52:05Z' on:source='admin'  bhb:sign='auto'?>
+
+<bhb:link append="debruyin/bhb:soup">
+	<bhb:host number="001" right="00.1" left="0.01">
+		<socket bhb:symbol="0.00.1"/> 
+		<socket bhb:symbol="0.01.0"/>  
+		<socket bhb:symbol="0.01.1"/>  
+		<socket bhb:symbol="1.00.1"/>  
+	</bhb:host> 
+</bhb:link>
+<?bhb-block on:id="001" on:source='bhb://admin@{block 0}' on:clock='2018-07-21T10:20:05Z' bhb:sign='auto'?>
+
+<bhb:link append="debruyin/bhb:soup">
+	<bhb:host number="010" right="01.0" left="0.10">
+		<socket bhb:symbol="0.01.0"/> 
+		<socket bhb:symbol="0.10.0"/>  
+		<socket bhb:symbol="0.10.1"/>  
+		<socket bhb:symbol="1.01.0"/>  
+	</bhb:host> 
+</bhb:link>
+<?bhb-block on:id="010" on:source='bhb://admin@{block 0}' on:clock='2018-07-21T10:20:05Z' bhb:sign='auto'?>
+
+<bhb:link append="debruyin/bhb:soup">
+	<bhb:host number="011" right="01.1" left="0.11">
+		<socket bhb:symbol="0.01.1"/> 
+		<socket bhb:symbol="0.11.0"/>  
+		<socket bhb:symbol="0.11.1"/>  
+		<socket bhb:symbol="1.01.1"/>  
+	</bhb:host> 
+</bhb:link>
+<?bhb-block on:id="011" on:source='bhb://admin@{block 0}' on:clock='2018-07-21T10:20:05Z' bhb:sign='auto'?>
+
+<bhb:link append="debruyin/bhb:soup">
+	<bhb:host number="100" right="10.0" left="1.00">
+		<socket bhb:symbol="0.10.0"/> 
+		<socket bhb:symbol="1.00.0"/>  
+		<socket bhb:symbol="1.00.1"/>  
+		<socket bhb:symbol="1.10.0"/>  
+	</bhb:host> 
+</bhb:link>
+<?bhb-block on:id="100" on:source='bhb://admin@{block 0}' on:clock='2018-07-21T10:20:05Z' bhb:sign='auto'?>
+
+<bhb:link append="debruyin/bhb:soup">
+	<bhb:host number="101" right="10.1" left="1.01">
+		<socket bhb:symbol="0.10.1"/> 
+		<socket bhb:symbol="1.01.0"/>  
+		<socket bhb:symbol="1.01.1"/>  
+		<socket bhb:symbol="1.10.1"/>  
+	</bhb:host> 
+</bhb:link>
+<?bhb-block on:id="101" on:source='bhb://admin@{block 0}' on:clock='2018-07-21T10:20:05Z' bhb:sign='auto'?>
+
+<bhb:link append="debruyin/bhb:soup">
+	<bhb:host number="110" right="11.0" left="1.10">
+		<socket bhb:symbol="0.11.0"/> 
+		<socket bhb:symbol="1.10.0"/>  
+		<socket bhb:symbol="1.10.1"/>  
+		<socket bhb:symbol="1.11.0"/>  
+	</bhb:host> 
+</bhb:link>
+<?bhb-block on:id="110" on:source='bhb://admin@{block 0}' on:clock='2018-07-21T10:20:05Z' bhb:sign='auto'?>
+
+<bhb:link append="debruyin/bhb:soup">
+	<bhb:host number="111" right="11.1" left="1.11">
+		<socket bhb:symbol="0.11.1"/> 
+		<socket bhb:symbol="1.11.0"/>  
+		<socket bhb:symbol="1.11.1"/>  
+		<socket bhb:symbol="1.11.1"/>  
+	</bhb:host> 
+</bhb:link>
+<?bhb-block on:id="111" on:source='bhb://admin@{block 0}' on:clock='2018-07-21T10:20:05Z' bhb:sign='auto'?>
+
+<!-- Finish -->
+<bhb:link append="debruyin/bhb:soup">
+	<bhb:host number="000" right="00.0" left="0.00">
+		<socket bhb:symbol="0.00.0"/> 
+		<socket bhb:symbol="0.00.0"/>  
+		<socket bhb:symbol="0.00.1"/>  
+		<socket bhb:symbol="1.00.0"/>  
+	</bhb:host> 
+</bhb:link>
+<?bhb-block on:id="000" on:source='bhb://admin@{block 0}' on:clock='2018-07-21T10:20:05Z' bhb:sign='auto'?>
+
